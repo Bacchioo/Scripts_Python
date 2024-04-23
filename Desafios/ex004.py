@@ -1,0 +1,8 @@
+t = input('digite algo: ')
+print(t)
+print(type(t))
+print('Isso é um texto?', t.isalpha())
+print('Este texto é um numero?', t.isnumeric())
+print('Este texto é um "Espaço"?', t.isspace())
+print('Este texto so possui letras MAIÚSCULAS?', t.isupper())
+print('Este texto so possui letras minúsculas:', t.islower())
